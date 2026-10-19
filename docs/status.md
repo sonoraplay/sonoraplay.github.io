@@ -50,7 +50,7 @@ The full flow **works locally with Docker**. The AWS design is accepted, but **t
 <details>
 <summary><strong>Sprint 3 · In progress</strong></summary>
 
-- Advertising revenue (F5), exchange rates (F6) and countries (F7): first version merged; live checks and loading into PostgreSQL still pending.
+- Advertising revenue (F5), exchange rates (F6) and countries (F7), story EG-30: first version in the `develop` branch. It is **not in `main`** until live API checks, loading into PostgreSQL and approval of ADR-0021 are done.
 - Cloud foundations (network, storage, database) with Terraform: in review.
 - This documentation portal, in English and Spanish.
 

@@ -50,7 +50,7 @@ El flujo completo **funciona en local con Docker**. El diseño en AWS está acep
 <details>
 <summary><strong>Sprint 3 · En curso</strong></summary>
 
-- Ingresos publicitarios (F5), tasas de cambio (F6) y países (F7): primera versión integrada; faltan las pruebas en vivo y la carga en PostgreSQL.
+- Ingresos publicitarios (F5), tasas de cambio (F6) y países (F7), historia EG-30: primera versión en la rama `develop`. **No está en `main`** hasta completar las pruebas con las APIs reales, la carga en PostgreSQL y la aprobación del ADR-0021.
 - Base en la nube (red, almacenamiento, base de datos) con Terraform: en revisión.
 - Este portal de documentación, en inglés y español.
 

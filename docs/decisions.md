@@ -23,7 +23,7 @@ Important decisions are recorded as **ADRs** (Architecture Decision Records): th
 | [0007](https://github.com/sonoraplay/main/blob/main/docs/adr/0007-cierre-mes-ajustes-reliquidacion.md) | Published months are **never edited**; late data is paid as an adjustment; cent-exact rounding | Full history and totals that never exceed the pool | 🟢 Accepted |
 | [0008](https://github.com/sonoraplay/main/blob/main/docs/adr/0008-pais-bolsa-dos-componentes.md) | Pool by **billing country**; **two parts** (subscription / advertising) | Revenue and plays stay in the same pool; free plays don't take paid money | 🟢 Accepted |
 | [0020](https://github.com/sonoraplay/main/blob/main/docs/adr/0020-ventanas-encendido-aws.md) | AWS **off by default**; short test windows; on only in the final week | Cuts project cost from ~170 to ~30–40 USD | 🟢 Accepted |
-| [0021](https://github.com/sonoraplay/main/blob/main/docs/adr/0021-f6-fuentes-tasas-cierre-propuesto.md) | Exchange rates from Frankfurter; weekend month-ends use the previous business day | Free, public source with the six currencies | 🟡 Proposed |
+| [0021](https://github.com/sonoraplay/main/blob/develop/docs/adr/0021-f6-fuentes-tasas-cierre-propuesto.md) | Exchange rates from Frankfurter; weekend month-ends use the previous business day | Free, public source with the six currencies | 🟡 Proposed |
 
 ## Decisions still to be written
 

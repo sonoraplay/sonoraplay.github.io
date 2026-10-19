@@ -81,6 +81,10 @@ Las condiciones del contrato de cada titular: **% de regalía**, **fechas de vig
 
 ### F5 · Ingresos publicitarios
 
+:::info En curso
+F5, F6 y F7 son de la historia EG-30, que sigue en curso en la rama `develop`.
+:::
+
 Un CSV mensual simulado con los ingresos publicitarios de los seis países, en moneda local.
 
 ### F6 · Tasas de cambio
@@ -99,5 +103,5 @@ Códigos de país, regiones y monedas de la API pública **REST Countries**.
 - Los datos de prueba incluyen defectos a propósito (sin fin, reloj desfasado, pista desconocida, duplicados) para demostrar que se manejan.
 
 :::note Registros completos
-[Eventos F2](https://github.com/sonoraplay/main/blob/main/docs/datos/eventos-f2.md) · [Modelo F3](https://github.com/sonoraplay/main/blob/main/docs/datos/modelo-f3.md) · [Modelo F4](https://github.com/sonoraplay/main/blob/main/docs/datos/modelo-f4.md) · [Simulador](https://github.com/sonoraplay/main/blob/main/docs/datos/simulador-f2.md) · [Atribución offline](https://github.com/sonoraplay/main/blob/main/docs/datos/atribucion-offline.md) · [F5–F7](https://github.com/sonoraplay/main/blob/main/docs/datos/eg30-fuentes-f5-f6-f7.md)
+[Eventos F2](https://github.com/sonoraplay/main/blob/main/docs/datos/eventos-f2.md) · [Modelo F3](https://github.com/sonoraplay/main/blob/main/docs/datos/modelo-f3.md) · [Modelo F4](https://github.com/sonoraplay/main/blob/main/docs/datos/modelo-f4.md) · [Simulador](https://github.com/sonoraplay/main/blob/main/docs/datos/simulador-f2.md) · [Atribución offline](https://github.com/sonoraplay/main/blob/main/docs/datos/atribucion-offline.md) · [F5–F7](https://github.com/sonoraplay/main/blob/develop/docs/datos/eg30-fuentes-f5-f6-f7.md)
 :::

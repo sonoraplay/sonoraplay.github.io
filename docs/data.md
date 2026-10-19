@@ -81,6 +81,10 @@ Contract conditions per rights holder: royalty **percentage**, **validity dates*
 
 ### F5 · Advertising revenue
 
+:::info In progress
+F5, F6 and F7 belong to story EG-30, which is still in progress in the `develop` branch.
+:::
+
 A simulated monthly CSV with advertising revenue for the six countries, in local currency.
 
 ### F6 · Exchange rates
@@ -99,5 +103,5 @@ Country codes, regions and currencies from the public **REST Countries** API.
 - Test data includes deliberate defects (missing end, wrong clock, unknown track, duplicates) to prove they are handled.
 
 :::note Full records
-[F2 events](https://github.com/sonoraplay/main/blob/main/docs/datos/eventos-f2.md) · [F3 model](https://github.com/sonoraplay/main/blob/main/docs/datos/modelo-f3.md) · [F4 model](https://github.com/sonoraplay/main/blob/main/docs/datos/modelo-f4.md) · [Simulator](https://github.com/sonoraplay/main/blob/main/docs/datos/simulador-f2.md) · [Offline attribution](https://github.com/sonoraplay/main/blob/main/docs/datos/atribucion-offline.md) · [F5–F7](https://github.com/sonoraplay/main/blob/main/docs/datos/eg30-fuentes-f5-f6-f7.md)
+[F2 events](https://github.com/sonoraplay/main/blob/main/docs/datos/eventos-f2.md) · [F3 model](https://github.com/sonoraplay/main/blob/main/docs/datos/modelo-f3.md) · [F4 model](https://github.com/sonoraplay/main/blob/main/docs/datos/modelo-f4.md) · [Simulator](https://github.com/sonoraplay/main/blob/main/docs/datos/simulador-f2.md) · [Offline attribution](https://github.com/sonoraplay/main/blob/main/docs/datos/atribucion-offline.md) · [F5–F7](https://github.com/sonoraplay/main/blob/develop/docs/datos/eg30-fuentes-f5-f6-f7.md)
 :::

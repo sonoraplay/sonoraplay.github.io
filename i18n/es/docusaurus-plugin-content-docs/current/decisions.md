@@ -23,7 +23,7 @@ Las decisiones importantes se registran como **ADR** (Architecture Decision Reco
 | [0007](https://github.com/sonoraplay/main/blob/main/docs/adr/0007-cierre-mes-ajustes-reliquidacion.md) | Los meses publicados **nunca se editan**; los datos tardíos se pagan como ajuste; redondeo exacto al centavo | Historia completa y totales que nunca superan la bolsa | 🟢 Aceptado |
 | [0008](https://github.com/sonoraplay/main/blob/main/docs/adr/0008-pais-bolsa-dos-componentes.md) | Bolsa por **país de facturación**; **dos partes** (suscripción / publicidad) | Ingresos y reproducciones quedan en la misma bolsa; lo gratuito no se lleva dinero pago | 🟢 Aceptado |
 | [0020](https://github.com/sonoraplay/main/blob/main/docs/adr/0020-ventanas-encendido-aws.md) | AWS **apagado por defecto**; ventanas cortas de prueba; prendido solo la última semana | Baja el costo del proyecto de ~170 a ~30–40 USD | 🟢 Aceptado |
-| [0021](https://github.com/sonoraplay/main/blob/main/docs/adr/0021-f6-fuentes-tasas-cierre-propuesto.md) | Tasas de cambio de Frankfurter; si el mes cierra en fin de semana, se usa el día hábil anterior | Fuente gratuita y pública con las seis monedas | 🟡 Propuesto |
+| [0021](https://github.com/sonoraplay/main/blob/develop/docs/adr/0021-f6-fuentes-tasas-cierre-propuesto.md) | Tasas de cambio de Frankfurter; si el mes cierra en fin de semana, se usa el día hábil anterior | Fuente gratuita y pública con las seis monedas | 🟡 Propuesto |
 
 ## Decisiones por escribir
 
