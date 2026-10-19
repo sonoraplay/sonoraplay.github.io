@@ -2,5 +2,3 @@ node_modules/
 build/
 .docusaurus/
 .cache-loader/
-# Se copian desde sonoraplay/main al compilar; no se guardan aquí.
-docs/

@@ -1,35 +1,20 @@
 name: Publicar documentación
 
-# Toma los documentos de sonoraplay/main (rama main, carpeta docs/),
-# compila el portal Docusaurus y lo publica en GitHub Pages.
+# Compila el portal Docusaurus (inglés y español) y lo publica en GitHub Pages.
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
-  schedule:
-    - cron: '17 6 * * *'   # una vez al día, por si cambió la documentación del código
 
 permissions:
   contents: read
-
-env:
-  REPO_CODIGO: sonoraplay/main
-  RAMA_CODIGO: main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Traer docs/ del repositorio de código
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ env.REPO_CODIGO }}
-          ref: ${{ env.RAMA_CODIGO }}
-          path: codigo
-          sparse-checkout: docs
-      - run: cp -r codigo/docs ./docs
       - uses: actions/setup-node@v4
         with:
           node-version: '22'

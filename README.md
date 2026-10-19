@@ -1,32 +1,33 @@
-# Portal de documentación SonoraPlay
+# SonoraPlay documentation portal
 
-Publicado en **https://sonoraplay.github.io/**
+Published at **https://sonoraplay.github.io/** (English) and **https://sonoraplay.github.io/es/** (Spanish).
 
-Este repositorio solo contiene el portal [Docusaurus](https://docusaurus.io/). Los documentos viven en el repositorio de código [`sonoraplay/main`](https://github.com/sonoraplay/main), carpeta `docs/`, rama `main`.
+This repository contains the project portal built with [Docusaurus](https://docusaurus.io/): a general, non-technical overview of SonoraPlay (vision, how it works, business rules, architecture, data, APIs, decisions and status). The detailed technical records, in Spanish, stay in the code repository [`sonoraplay/main`](https://github.com/sonoraplay/main), and the portal links to them.
 
-## Cómo se publica
+## Structure
 
-El workflow `.github/workflows/publicar.yml`:
+| Path | Contents |
+|---|---|
+| `docs/` | Pages in English (default language) |
+| `i18n/es/docusaurus-plugin-content-docs/current/` | The same pages in Spanish (same file names) |
+| `i18n/es/*.json` | Spanish labels for the menu, footer and theme |
+| `sidebars.js` | Side menu |
+| `docusaurus.config.js` | Site configuration |
+| `static/img/` | Images (architecture diagram, icon) |
 
-1. Copia `docs/` desde `sonoraplay/main` (rama `main`).
-2. Compila el portal en español e inglés.
-3. Lo publica en GitHub Pages.
+**Rule:** every page exists in both languages. When you change a page in `docs/`, change the file with the same name in the Spanish folder in the same pull request.
 
-Se ejecuta al subir cambios a `main` de este repositorio, una vez al día y a mano desde **Actions → Publicar documentación → Run workflow**. Para publicar enseguida un cambio de documentación hecho en el repositorio de código, lanzarlo a mano.
+## Publishing
 
-## Editar la documentación
+`.github/workflows/publicar.yml` builds both languages on every pull request and publishes to GitHub Pages on every push to `main`. It can also be run manually from **Actions → Publicar documentación → Run workflow**.
 
-Los `.md` se editan en `sonoraplay/main`, no aquí. Aquí solo se cambian el menú (`sidebars.js`), la configuración (`docusaurus.config.js`) y el estilo (`src/css/custom.css`).
+## Run locally
 
-## Probar en local
-
-Requiere Node.js 20 o superior.
+Requires Node.js 20 or newer.
 
 ```bash
-git clone https://github.com/sonoraplay/sonoraplay.github.io.git
-git clone https://github.com/sonoraplay/main.git codigo
-cd sonoraplay.github.io
-cp -r ../codigo/docs ./docs
 npm ci
-npm run docs:start
+npm run docs:start                 # English
+npm run docs:start -- --locale es  # Spanish
+npm run docs:build                 # both languages, as in CI
 ```
