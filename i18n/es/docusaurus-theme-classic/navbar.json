@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "SonoraPlay",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "SonoraPlay",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "Documentación",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Architecture": {
+    "message": "Arquitectura",
+    "description": "Navbar item with label Architecture"
+  },
+  "item.label.Rules": {
+    "message": "Reglas",
+    "description": "Navbar item with label Rules"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

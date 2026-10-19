@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Actual",
+    "description": "The label for version current"
+  },
+  "sidebar.portal.category.Overview": {
+    "message": "Visión general",
+    "description": "The label for category 'Overview' in sidebar 'portal'"
+  },
+  "sidebar.portal.category.Technical design": {
+    "message": "Diseño técnico",
+    "description": "The label for category 'Technical design' in sidebar 'portal'"
+  },
+  "sidebar.portal.category.Project": {
+    "message": "Proyecto",
+    "description": "The label for category 'Project' in sidebar 'portal'"
+  }
+}

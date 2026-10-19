@@ -1,0 +1,34 @@
+{
+  "link.title.Start here": {
+    "message": "Empieza aquí",
+    "description": "The title of the footer links column with title=Start here in the footer"
+  },
+  "link.title.Code": {
+    "message": "Código",
+    "description": "The title of the footer links column with title=Code in the footer"
+  },
+  "link.item.label.Vision & Scope": {
+    "message": "Visión y alcance",
+    "description": "The label of footer link with label=Vision & Scope linking to /vision"
+  },
+  "link.item.label.How It Works": {
+    "message": "Cómo funciona",
+    "description": "The label of footer link with label=How It Works linking to /how-it-works"
+  },
+  "link.item.label.Getting Started": {
+    "message": "Primeros pasos",
+    "description": "The label of footer link with label=Getting Started linking to /getting-started"
+  },
+  "link.item.label.Code repository": {
+    "message": "Repositorio de código",
+    "description": "The label of footer link with label=Code repository linking to https://github.com/sonoraplay/main"
+  },
+  "link.item.label.Decision records (ADR)": {
+    "message": "Registro de decisiones (ADR)",
+    "description": "The label of footer link with label=Decision records (ADR) linking to https://github.com/sonoraplay/main/blob/main/docs/adr/README.md"
+  },
+  "copyright": {
+    "message": "SonoraPlay · Proyecto académico de ingeniería de datos de Riwi",
+    "description": "The footer copyright"
+  }
+}
